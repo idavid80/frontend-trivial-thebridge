@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.32.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
@@ -39,16 +40,11 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "jest": "^28.1.1"
   },
-  
-    "plugins": [
-      
-      "react-hooks"
-    ],
-    "rules": {
-     
-      "react-hooks/rules-of-hooks": "error", 
-      "react-hooks/exhaustive-deps": "warn"
-    }
-  
-  
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  }
 }
