@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Usuario/AccesoUsuario';
+//import App from './Usuario/AccesoUsuario';
 import reportWebVitals from './reportWebVitals';
 import Tiempo from './Quizz/tiempoJuego'
 import Quiz from './Quizz/quizz_logica_front';
+import Prueba from './Otras pruebas/formulario-jugador';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <App />
+
+    <Prueba/>
     <Quiz />
     <Tiempo />
     </React.StrictMode>

@@ -21,7 +21,7 @@ const renderClasificacion = ({ clasificacion }) => {
     <Clasificacion clasificacion={clasificacion} />;
 };
 //https://reactnative.dev/docs/flatlist (ver uso flatlist) o https://reactnative.dev/docs/using-a-listview
-render() {
+
     return (
         <SafeAreaView style={styles.container}>
             <Text style={styles.text}>Clasificación</Text>
@@ -33,7 +33,7 @@ render() {
             />
         </SafeAreaView>
     );
-}
+
 /* Styles modelo según plantilla seguida. Hay que modidicar
 const styles = StyleSheet.create({
     container: {
