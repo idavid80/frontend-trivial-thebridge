@@ -29,13 +29,13 @@ export default function Quiz() {
                 { opciones: 'Flash', resultado: false },
             ],
         },
-
     ];
+
 
     const [opcionesPreguntas, setOpcionesPreguntas] = useState(0);
     const [verMarcador, setVerMarcador] = useState(false);
     const [marcador, setMarcador] = useState(0);
-
+    
     const respuestaSeleccionada = (resultado) => {
         if (resultado) {
             setMarcador(marcador + 1);

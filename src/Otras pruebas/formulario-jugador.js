@@ -8,12 +8,12 @@ function Prueba() {
     const [categoria, setCategoria] = useState('');
 
 
-    function insertarUsuario(event) {
-        setUsuario(event.target.value);
+    const insertarUsuario =({target}) =>{
+        setUsuario(target.value);
 
     }
-    function insertarCategoria(event) {
-        setCategoria(event.target.value);
+    const insertarCategoria =({target})=> {
+        setCategoria(target.value);
 
     }
 
